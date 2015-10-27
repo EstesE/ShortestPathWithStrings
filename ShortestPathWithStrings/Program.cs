@@ -36,18 +36,49 @@ namespace ShortestPathWithStrings
             // Call ShortestPath method
             ShortestPath(src.ToUpper(), dst.ToUpper(), nodes, visitedNodes, paths);
 
+            var vNodes = "";
+            var vNodesPath = 0;
             // Write the paths
             Console.WriteLine();
+            var sNodes = string.Empty;
             foreach (string path in paths)
             {
                 Console.Write(path);
 
                 // Write the value of the path (optional)
                 Console.Write(" - " + GetPathValue(path) + "\n");
+                if (sNodes.Length == 0)
+                {
+                    sNodes = path;
+                }
+                else if (path.Length < sNodes.Length)
+                {
+                    sNodes = path;
+                }
+
+                if(paths.First() == path)
+                {
+                    vNodes = path;
+                    vNodesPath = GetPathValue(vNodes);
+                }
+                else
+                {
+                    if (vNodesPath > GetPathValue(path))
+                    {
+                        vNodes = path;
+                        vNodesPath = GetPathValue(path);
+                    }
+                }                
             }
 
+            vNodesPath = GetPathValue(vNodes);
+
             // Write total path count
+            Console.WriteLine("\nShortest Physical Path: {0} ({1})", sNodes, GetPathValue(sNodes));
+            Console.WriteLine("Shortest value Path: {0} ({1})", vNodes, vNodesPath);
             Console.WriteLine("\nTotal paths: {0}", paths.Count);
+
+
             
 
             // Pause...so the window doesn't close

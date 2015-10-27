@@ -15,3 +15,9 @@ C:\Users\eric_estes\Documents\Visual Studio 2013\Projects\ShortestPathWithString
 C:\Users\eric_estes\Documents\Visual Studio 2013\Projects\ShortestPathWithStrings\ShortestPathWithStrings\bin\Debug\ShortestPathWithStrings.exe
 C:\Users\eric_estes\Documents\Visual Studio 2013\Projects\ShortestPathWithStrings\ShortestPathWithStrings\bin\Debug\ShortestPathWithStrings.pdb
 C:\Users\eric_estes\Documents\Visual Studio 2013\Projects\ShortestPathWithStrings\ShortestPathWithStrings\obj\Debug\ShortestPathWithStrings.csprojResolveAssemblyReference.cache
+D:\source-test\ShortestPathWithStrings\ShortestPathWithStrings\bin\Debug\ShortestPathWithStrings.exe.config
+D:\source-test\ShortestPathWithStrings\ShortestPathWithStrings\obj\Debug\ShortestPathWithStrings.exe
+D:\source-test\ShortestPathWithStrings\ShortestPathWithStrings\obj\Debug\ShortestPathWithStrings.pdb
+D:\source-test\ShortestPathWithStrings\ShortestPathWithStrings\bin\Debug\ShortestPathWithStrings.exe
+D:\source-test\ShortestPathWithStrings\ShortestPathWithStrings\bin\Debug\ShortestPathWithStrings.pdb
+D:\source-test\ShortestPathWithStrings\ShortestPathWithStrings\obj\Debug\ShortestPathWithStrings.csprojResolveAssemblyReference.cache
